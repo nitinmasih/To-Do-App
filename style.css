@@ -1,0 +1,98 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+.main-container{
+      
+     height: 100%;
+      width: 390px;
+      border: 1px solid gray;
+      padding-bottom: 15px;
+     margin: auto;
+     background-color: rgb(221, 221, 121);
+     border-radius: 25px;
+     margin-top: 15px;
+}
+#form1{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 20px;
+}
+#search-box{
+      width: 284px;
+      height: 30px;
+      padding: 9px;
+}
+.task-buttons{
+  display: flex;
+  gap: 20px;
+}
+.task-buttons button{
+      width: 72px;
+      border: none;
+      height: 50px;
+      padding: 5px;
+      border-radius: 25px;
+}
+li{
+      display: flex;
+      align-items: center; 
+      border: 1px solid gray;
+      gap: 15px;
+      padding:  8px;
+      height: 100%;
+      background-color: beige;
+      border-radius: 3px;
+      margin: 10px;
+      width: 284px;
+}
+li button{
+   border: none;
+   background: none;
+}
+label{
+      font-size: 22px;
+      width: 160px;
+      height: 100%;
+      cursor: pointer;
+}
+#form-input{
+      width: 284px;
+      height: 30px;
+      padding: 9px;    
+}
+#form-btn{
+      width: 284px;
+      height: 28px;
+      background-color: rgb(121, 45, 202);
+      color: white;
+      border: none;
+      border-radius: 3px;
+    
+}
+.hr{
+      height: 2px;
+      width: 310px;
+      background-color: black;
+   
+}
+.todos-container{
+max-height: 444px;
+overflow-y: auto;
+
+
+}
+#deleteBtn:hover{
+      cursor: pointer;
+}
+   
+#items-list{
+      width: 100%;
+}
+#editBtn{
+      cursor: pointer;
+}

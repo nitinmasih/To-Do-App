@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <form action="#" id="form1">
+        <input type="search" id="search-box" placeholder="Search To Do" />
+        <div class="task-buttons">
+          <button style="background-color: pink" id='all-todo-btn'>All</button>
+          <button style="background-color: greenyellow" id="completed-todo-btn">Done</button>
+          <button style="background-color: rgb(244, 244, 209)" id="active-todo-btn">Waiting</button>
+        </div>
+           <div class="todos-container">
+            <div id="items-list">
+              
+            </div>
+           </div>
+         <div class="hr"></div>
+        <input type="text" id="form-input" placeholder="Add To Do" />
+        <button type="submit"  id="form-btn">Create Task</button>
+      </form>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
