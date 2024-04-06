@@ -42,6 +42,7 @@ const editTodo = (todoId) => {
   const todoIndex = todoList.findIndex((todo) => todo.id === todoId);
   editTodoIndex = todoIndex;
   inputElem.value = todoList[todoIndex].text;
+  inputElem.focus()
   btnElem.innerText = EDIT_BTN_TEXT;
 };
 
@@ -135,3 +136,18 @@ activeTodoBtn.addEventListener('click', () => filterTodos(ACTIVE_TODO));
 completedTodoBtn.addEventListener('click', () => filterTodos(COMPLETED_TODO));
 
 
+// Adding class to be active
+
+const buttons = document.querySelectorAll('button');
+
+// Add click event listeners to each button
+buttons.forEach(function(button) {
+  button.addEventListener('click', function() {
+    // Remove 'active' class from all buttons
+    buttons.forEach(function(btn) {
+      btn.classList.remove('active');
+    });
+    // Add 'active' class to the clicked button
+    this.classList.add('active');
+  });
+});
