@@ -33,7 +33,7 @@
 }
 .task-buttons button{
       width: 72px;
-      border: none;
+     border: 0;
       height: 50px;
       padding: 5px;
       border-radius: 25px;
@@ -96,3 +96,58 @@ overflow-y: auto;
 #editBtn{
       cursor: pointer;
 }
+
+button{
+      cursor: pointer;
+ 
+}
+input[type=checkbox]{
+      cursor: pointer;
+}
+button.active{
+     
+      border: 2px solid rgb(58, 143, 41);
+}
+
+@media screen and (max-width: 375px) {
+      
+      .main-container{
+      
+            height: 100%;
+             width: 390px;
+             border: 1px solid gray;
+             padding-bottom: 15px;
+            margin: auto;
+            background-color: rgb(221, 221, 121);
+            border-radius: 25px;
+            margin-top: 15px;
+       }
+    }
+@media screen and (max-width: 415px) {
+      
+      .main-container{
+      
+            height: 100%;
+             width: 410px;
+             border: 1px solid gray;
+             padding-bottom: 15px;
+            margin: auto;
+            background-color: rgb(221, 221, 121);
+            border-radius: 25px;
+            margin-top: 15px;
+       }
+    }
+@media screen and (max-width: 430px) {
+      
+      .main-container{
+      
+            height: 100%;
+             width: 425px;
+             border: 1px solid gray;
+             padding-bottom: 15px;
+            margin: auto;
+            background-color: rgb(221, 221, 121);
+            border-radius: 25px;
+            margin-top: 15px;
+       }
+    }
